@@ -56,11 +56,19 @@ print(timedelta(seconds=end_time - start_time))
 #simulate classic wide transformation problem in a distributed engine: joining very small dataframe with a large one
 incoming = fullgf.sample(frac=0.01)
  
-#joining both dataframes
+#joining both dataframes via join operation. *Not so sure join infers automatically any index for matching keys.
 start_time = time.monotonic()
 joindf = fullgf.join(incoming, how='inner', lsuffix='famid', rsuffix='famid')
 end_time = time.monotonic()
 print(timedelta(seconds=end_time - start_time))
 #0:00:00.202807
+
+
+#joining via merge operation
+start_time = time.monotonic()
+mergedf = fullgf.merge(incoming, on=['famid'], how='inner')
+end_time = time.monotonic()
+print(timedelta(seconds=end_time - start_time))
+#0:00:00.144295
  
 #same joining operation takes 4x slower in a CPU based Pandas Dataframe using same data scale.
