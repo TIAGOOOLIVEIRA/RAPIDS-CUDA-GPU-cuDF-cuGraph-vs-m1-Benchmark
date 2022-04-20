@@ -13,6 +13,8 @@ Databricks Spark Cluster Setup
 
 ### References - Code
 
+cuDF vs Pandas
+cuGraph vs NetworkX
 
 ### Videos & lectures
 
