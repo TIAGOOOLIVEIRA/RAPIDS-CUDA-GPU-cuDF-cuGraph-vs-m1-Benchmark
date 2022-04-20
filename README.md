@@ -2,6 +2,11 @@
 
 This project is built and maintained by Tiago Oliveira - [ti.olive@gmail.com](https://www.linkedin.com/in/tiagoliveira/).
 
+CPU/GPU laptop setup
+
+Macbook m1 setup
+
+Databricks Spark Cluster Setup
 
 ### References literature
 
