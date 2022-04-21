@@ -25,7 +25,7 @@ It is recommended to keep an eye on the news that the NVIDIA team has contribute
   * Memory: 31,2 GiB
   * SSD: 256GB
   * Disk: 1,3 TB
-
+![Ubuntu NVIDIA GPU card statistics](NVIDIA-Corporation-GP107M-GeForceGTX1050TiMobile.png)
 
 * Setup 3 - Databricks Spark Cluster
 
