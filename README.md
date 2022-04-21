@@ -15,23 +15,22 @@ It is important to emphasize the efficiency gain in performance for using the GP
 It is recommended to keep an eye on the news that the NVIDIA team has contributed to the [RAPIDS AI](https://rapids.ai/) project - also in the [git](https://github.com/rapidsai/)
 
 
-
-Setup 1 - MacOS
-OS: macOS Monterey 12.1, Apple M1 Pro
-Memory: 32GB
-SSD: 1TB
-
-
-Setup 2 - Ubuntu GPU
-OS: Ubuntu 20.04.4 LTS
-Graphics: NVIDIA Corporation GP107M [GeForce GTX 1050 Ti Mobile] / NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2
-Processor: Intel® Core™ i7-7700HQ CPU @ 2.80GHz × 8
-Memory: 31,2 GiB
-SSD: 256GB
-Disk: 1,3 TB
+Markup : * Setup 1 - MacOS
+              * OS: macOS Monterey 12.1, Apple M1 Pro
+              * Memory: 32GB
+              * SSD: 1TB
 
 
-Setup 3 - Databricks Spark Cluster
+Markup : * Setup 2 - Ubuntu GPU
+              * OS: Ubuntu 20.04.4 LTS
+              * Graphics: NVIDIA Corporation GP107M [GeForce GTX 1050 Ti Mobile] / NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2
+              * Processor: Intel® Core™ i7-7700HQ CPU @ 2.80GHz × 8
+              * Memory: 31,2 GiB
+              * SSD: 256GB
+              * Disk: 1,3 TB
+
+
+Markup : * Setup 3 - Databricks Spark Cluster
 
 
 ### References literature
