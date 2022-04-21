@@ -3,13 +3,10 @@
 This project is built and maintained by Tiago Oliveira - [ti.olive@gmail.com](https://www.linkedin.com/in/tiagoliveira/).
 
 
-
 It aims to explore statistics for Loading,joining dataframes and performs some Graph Operations to compare the performance from different computer architecture: Ubuntu Laptop GPU accelerated vs Macbook M1 Pro. 
 
 
-
-It is important to emphasize the efficiency gain in performance for using the GPU not only in the training of Deep Learning Models, but also for regular data transformation operations. The performance gain compared to CPU-only libraries is really impressive. So when performance is the most relevant attribute on designing ETL processes, for sure it worth it rather to leverage GPU accelerated libraries.
-
+It is important to emphasize the efficiency gain in performance for using the GPU not only in the training of Deep Learning Models, but also for regular data transformation operations. The performance gain compared to CPU-only libraries is really impressive. So when performance is the most relevant attribute **on designing ETL processes, for sure it worth it rather to leverage GPU accelerated libraries**.
 
 
 It is recommended to keep an eye on the news that the NVIDIA team has contributed to the [RAPIDS AI](https://rapids.ai/) project - also in the [git](https://github.com/rapidsai/)
