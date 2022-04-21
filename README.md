@@ -35,8 +35,8 @@ It is recommended to keep an eye on the news that the NVIDIA team has contribute
 
 ### References - Code
 
-cuDF vs Pandas
-cuGraph vs NetworkX
+* cuDF vs Pandas
+* cuGraph vs NetworkX
 
 ### Videos & lectures
 
