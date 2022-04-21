@@ -2,11 +2,34 @@
 
 This project is built and maintained by Tiago Oliveira - [ti.olive@gmail.com](https://www.linkedin.com/in/tiagoliveira/).
 
-CPU/GPU laptop setup
 
-Macbook m1 setup
+It aims to explore statistics for Loading,joining dataframes and performs some Graph Operations to compare the performance from different computer architecture: Ubuntu Laptop GPU accelerated vs Macbook M1 Pro. 
 
-Databricks Spark Cluster Setup
+
+It is important to emphasize the efficiency gain in performance for using the GPU not only in the training of Deep Learning Models, but also for regular data transformation operations. The performance gain compared to CPU-only libraries is extremely relevant when performance is the most important aspect in the design of ETL processes.
+
+
+It is recommended to keep an eye on the news that the NVIDIA team has contributed to the [RAPIDS AI](https://rapids.ai/) project - also in the [git](https://github.com/rapidsai/)
+
+
+
+Setup 1 - MacOS
+OS: macOS Monterey 12.1, Apple M1 Pro
+Memory: 32GB
+SSD: 1TB
+
+
+Setup 2 - Ubuntu GPU
+OS: Ubuntu 20.04.4 LTS
+Graphics: NVIDIA Corporation GP107M [GeForce GTX 1050 Ti Mobile] / NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2
+Processor: Intel® Core™ i7-7700HQ CPU @ 2.80GHz × 8
+Memory: 31,2 GiB
+SSD: 256GB
+Disk: 1,3 TB
+
+
+Setup 3 - Databricks Spark Cluster
+
 
 ### References literature
 
