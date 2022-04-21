@@ -1,6 +1,6 @@
 # RAPIDS/CUDA for GPU acceleration on Dataframe/cuDF and Graph/cuGraph processings vs Macbook m1 architecture
 
-This project is built and maintained by Tiago Oliveira - [ti.olive@gmail.com](https://www.linkedin.com/in/tiagoliveira/).
+This project is built and maintained by Tiago Oliveira - [ti.olive@gmail.com LinkedIn](https://www.linkedin.com/in/tiagoliveira/)
 
 
 It aims to explore statistics for Loading,joining dataframes and performs some Graph Operations to compare the performance from different computer architecture: Ubuntu Laptop GPU accelerated vs Macbook M1 Pro. 
